@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Simple Voting App.</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran|Comfortaa" rel="stylesheet">
+</head>
+
+<body>
+
+	<h1>CHOOSE A COMPOSER</h1>
+
+    <!-- <p class="question">Who was the most talented classical music composer?</p> -->
+    
+    <h2>Who was the most talented classical music composer?</h2>
+    
+    <aside>
+	    <p>We'd like to know which one is the most highly rated in popular opinion.</p>
+	    
+	    <p>Your can help us to find out by casting your vote.</p>
+
+	    <p>Firstly, enter your name in the input box so that we can know who you are.</p>
+	</aside>
+	
+    <label id="name">Your name:</label>
+	<input type="text" name="votername">
+	
+	<p>Secondly, select the button relating to your choice of composer from the four given below.</p>
+
+	<img src="img/beethoven.jpg">
+	<img src="img/handel.jpg">
+	<img src="img/mozart.jpg">
+	<img src="img/jsBach.jpg">
+
+	<form>
+  		<input type="radio" name="composer" value="beethoven" checked> Beethoven
+  		<input type="radio" name="composer" value="handel"> Handel
+  		<input type="radio" name="composer" value="mozart"> Mozart
+		<input type="radio" name="composer" value="jsBach"> J S Bach<br><br><br>
+		<input type="button" value="Press to submit">    
+	</form>	
+	
+
+</body>
+
+</html>
+

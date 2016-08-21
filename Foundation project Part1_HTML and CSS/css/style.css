@@ -1,0 +1,53 @@
+body {
+    background-color: lavenderblush;
+    color: dimgrey;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+h1 {
+    color: #177917;
+    font-size: 55px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+p {
+    font-size: 25px;
+    color: cornflowerblue;
+}
+
+/*
+.question{
+    font-size: 32px;
+    color: #3b7aea;
+}
+*/
+    
+}
+
+h2{
+    font-size: 50px;
+    color: #3b7aea;
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+label{
+    font-size: 25px;
+    color: coral;
+}
+
+input{
+    font-size: 25px;
+    color: #983916;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
